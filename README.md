@@ -30,6 +30,7 @@ You have the following commands you can use:
 - lcdShiftRight
 - lcdShiftLeft
 - lcdOFF
+- lcdON
 - lcdCursorLeft
 - lcdCursorRight
 
@@ -48,7 +49,8 @@ I will now quickly explain what all of them do and how to use them.
 - lcdCursorHome -> This will make the cursor go back to the home position. You use it like this: lcdCursorHome();
 - lcdShiftRight -> This will make the display shift 1 position to the right. You use it like this: lcdShiftRight();
 - lcsShiftLeft -> This will make the display shift 1 posution to the left. You use it like this: lcsShiftLeft();
-- lcdOFF -> This will make the display turn off. You use it like this lcdOFF();
+- lcdOFF -> This will make the display turn off. You use it like this: lcdOFF();
+- lcdON -> this will turn on the display. You use it like this: lcdON();
 - lcdCursorLeft -> This will move the cursor 1 spot to the left. You use it like this: lcdCursorLeft();
 - lcdCursorRight -> This will move the cursor 1 spot to the right. You use it like this: lcdCursorRight();
 - lcdCustomCharacter -> you can create your own custom character. You use it like this: 
